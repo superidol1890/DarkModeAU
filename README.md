@@ -1,7 +1,5 @@
-# DarkMode v1.1.5
+# DarkMode v2.0.0
 Tired of straining your eyes with the chat being white? No worries as this mod will turn the chat color to black!
-
-# Note : I am archiving all my repositories in order for me to focus well on academics. I am sorry for not making the next update.
 
 <p align="center">
    <img src="DarkModeAU.gif">
@@ -14,16 +12,17 @@ Tired of straining your eyes with the chat being white? No worries as this mod w
 
 ## Supported Versions
 - ✅ Steam (Supported)
-- ✅ Epic Games (Supported)
 - ✅ itch.io (Supported)
+- ❓ Epic Games (Works occasionally)
+- ❓ Microsoft Store (Works occasionally)
 - ❓ Cracked (Works occasionally)
-- ❌ Microsoft Store (Not Supported)
 - ❌ iOS/iPadOS/Android (Not Supported)
 - ❌ Switch/Xbox/Playstation (Not Supported)
 
 ## Download & Install!
-You can find the latest release here: [Download](https://github.com/the-real-techiee/DarkModeAU/releases/latest).
+You can find the latest release here: [Download](https://github.com/superidol1890/DarkModeAU/releases/latest).
 
 ## Special Thanks 🙏
+* [the-real-techiee](https://github.com/the-real-techiee) for the first 2 builds
 * [Gurge44](https://github.com/Gurge44/) for the source codes. [Check his mod out!](https://github.com/Gurge44/EndlessHostRoles)
 * PaperSkies for the logo

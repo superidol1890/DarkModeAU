@@ -7,10 +7,10 @@ using AmongUs.Data;
 using InnerNet;
 using TMPro;
 
-[BepInPlugin("com.darkmode.techiee", "DarkMode", "1.1.5")]
+[BepInPlugin("com.darkmode.superidol", "DarkMode", "2.0.0")]
 public class DarkModePlugin : BasePlugin
 {
-    public Harmony Harmony { get; } = new Harmony("Dark Mode, by Techiee.");
+    public Harmony Harmony { get; } = new Harmony("Dark Mode, by Super Idol.");
     public static ConfigEntry<bool> DarkModeConfig;
     public static ConfigEntry<bool> ShowWatermark;
     public override void Load()
@@ -64,7 +64,7 @@ namespace DarkMode
 
         public static void Prefix()
         {
-            ModManager.Instance.ShowModStamp();//Shows the mod's stamp...Incase if you wanna remove it just delete this line.
+            ModManager.Instance.ShowModStamp();
         }
 
         public static void Postfix(ChatController __instance)
@@ -114,8 +114,7 @@ namespace DarkMode
             PingTracker pingTracker = GameObject.FindObjectOfType<PingTracker>();
             if (DarkModePlugin.ShowWatermark.Value &&  pingTracker != null)
             {
-                pingTracker.text.text += "<br><size=2.3><#666>Dark Mode <sup><#3c39>[Dev]</sup></size>" + " <size=2><#f00>v1.1.5</size>" + " <size=1.5><color=#555>Made by<#39f> Techiee";
-                //pingTracker.text.text += "<br><size=2.3><#666>Dark Mode <sup><#3c39>[Latest]</sup></size>" + " <size=2><#f00>v1.1.5</size>" + " <size=1.5><color=#555>Made by<#39f> Techiee";
+                pingTracker.text.text += "<br><size=2.3><#666>Dark Mode <sup><#3c39>[Dev]</sup></size>" + " <size=2><#f00>v2.0.0</size>" + " <size=1.5><color=#555>Made by<#39f> Super Idol";
                 __instance.text.outlineColor = Color.black;
                 __instance.text.alignment = TextAlignmentOptions.Center;
             }
