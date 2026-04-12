@@ -15,10 +15,10 @@ Tired of straining your eyes with the chat being white? No worries as this mod w
 ## Supported Versions
 - ✅ Steam (Supported)
 - ✅ itch.io (Supported)
-- ❓ Epic Games (Works occasionally)
-- ❓ Microsoft Store (Works occasionally)
-- ❓ Cracked (Works occasionally)
-- ❌ iOS/iPadOS/Android (Not Supported)
+- ✅ Epic Games (Supported)
+- ✅ Microsoft Store (Supported)
+- ✅ Android (Supported)
+- ❌ iOS/iPadOS (Not Supported)
 - ❌ Switch/Xbox/Playstation (Not Supported)
 
 ## Download & Install!
