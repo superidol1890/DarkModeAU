@@ -1,7 +1,7 @@
-# DarkMode v2.1.0
+# DarkMode v2.2.0
 Tired of straining your eyes with the chat being white? No worries as this mod will turn the chat color to black!
 
-## Note: This is a contnuation of the original repo, due to the owner archiving the repo. I will try my best to keep the mod updated as long as possible. 
+## Note: This is a continuation of the original repo, due to the owner archiving the repo. I will try my best to keep the mod updated as long as possible. 
 
 <p align="center">
    <img src="DarkModeAU.gif">
