@@ -7,12 +7,11 @@ using AmongUs.Data;
 using InnerNet;
 using TMPro;
 
-[BepInPlugin("com.darkmode.superidol", "DarkMode", "2.2.0")]
+[BepInPlugin("com.darkmode.superidol", "DarkMode", "2.3.0")]
 public class DarkModePlugin : BasePlugin
 {
     public Harmony Harmony { get; } = new Harmony("Dark Mode, by Super Idol.");
     public static ConfigEntry<bool> DarkModeConfig;
-    public static ConfigEntry<bool> ShowWatermark;
     public override void Load()
     {
         DarkModeConfig = Config.Bind("DarkMode",
@@ -20,10 +19,6 @@ public class DarkModePlugin : BasePlugin
                                      true,
                                      "Set this to false if you don't want dark mode for now");
 
-        ShowWatermark = Config.Bind("Credits",
-                                     "ShowWatermark?",
-                                     true,
-                                     "Set this to false if you don't want to see the watermark.");
         Harmony.PatchAll();
     }
 }
@@ -112,9 +107,9 @@ namespace DarkMode
         public static void Postfix(PingTracker __instance)
         {
             PingTracker pingTracker = GameObject.FindObjectOfType<PingTracker>();
-            if (DarkModePlugin.ShowWatermark.Value && pingTracker != null)
+            if (pingTracker != null)
             {
-                pingTracker.text.text += "<br><size=2.3><#666>Dark Mode <sup><#3c39>[Dev]</sup></size>" + " <size=2><#f00>v2.2.0</size>" + " <size=1.5><color=#555>Made by<#39f> Super Idol";
+                pingTracker.text.text += "<br><size=2.3><#666>Dark Mode <sup><#3c39>[Dev]</sup></size>" + " <size=2><#f00>v2.3.0</size>" + " <size=1.5><color=#555>Made by<#39f> Super Idol";
                 __instance.text.outlineColor = Color.black;
                 __instance.text.alignment = TextAlignmentOptions.Center;
             }
